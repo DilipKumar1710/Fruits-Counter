@@ -1,0 +1,111 @@
+.main-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.fruits-container {
+  background-color: #ffffff;
+  border: none;
+  height: 100vh;
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-container {
+    width: 60%;
+  }
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.fruit-card-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-card-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.fruits-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-heading {
+    font-size: 50px;
+  }
+}
+.fruit-counter {
+  color: #ffd569;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-counter {
+    font-size: 50px;
+  }
+}
+.mango-image {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .mango-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
